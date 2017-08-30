@@ -1,0 +1,52 @@
+/** IDedStyled.css
+ ** Jules Leow
+ ** 29 Aug 2017
+ **/
+
+body {
+  background-color: #333;
+  background-image: url(images/MonkeyIsland.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#threepwood {
+  float: left;
+  background-color: #333;
+  border: 2px hidden #3374dd;
+  border-radius: 5px;
+  width: 500px;
+  margin-left:100px;
+}
+
+#threepwood p {
+  color: #3374dd;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#lechuck {
+  float: right;
+  background-color: #333;
+  border: 2px hidden #dd3335;
+  border-radius: 5px;
+  width: 500px;
+  margin-top: 470px;
+  margin-right: 50px;
+}
+
+#lechuck p {
+  color: #dd3335;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #555;
+  text-align: center;
+}
